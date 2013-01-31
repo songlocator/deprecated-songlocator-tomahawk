@@ -1,0 +1,10 @@
+{
+  "name": "songlocator-tomahawk",
+  "version": "0.1.0",
+  "description": "Tomahawk resolvers adapted to be used with SongLocator",
+  "tags": ["api", "music", "streaming", "audio", "tomahawk"],
+  "author": "Andrey Popp <8mayday@gmail.com>",
+  "dependencies": {
+    "xmlhttprequest": ""
+  }
+}

@@ -1,0 +1,3 @@
+[submodule "tomahawk-resolvers"]
+	path = tomahawk-resolvers
+	url = https://github.com/tomahawk-player/tomahawk-resolvers.git
