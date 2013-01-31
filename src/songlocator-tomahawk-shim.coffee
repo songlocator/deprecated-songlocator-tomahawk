@@ -5,7 +5,7 @@
 XMLHttpRequest = XMLHttpRequest or require('xmlhttprequest').XMLHttpRequest
 {BaseResolver, extend} = require 'songlocator-base'
 
-exports.window = window? or {localStorage: {}, sessionStorage: {}}
+exports.window = if window? then window else {localStorage: {}, sessionStorage: {}}
 
 exports.Tomahawk =
 
@@ -64,4 +64,4 @@ exports.TomahawkResolver =
     # some resolvers could be not so nice
     if results.results
       results.results = results.results.filter (r) -> r
-    this.emit 'result', results
+    this.emit 'results', results
