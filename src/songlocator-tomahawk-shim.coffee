@@ -3,7 +3,7 @@
 ###
 
 XMLHttpRequest = XMLHttpRequest or require('xmlhttprequest').XMLHttpRequest
-{BaseResolver} = require 'songlocator-base'
+{BaseResolver, extend} = require 'songlocator-base'
 
 exports.window = window? or {localStorage: {}, sessionStorage: {}}
 

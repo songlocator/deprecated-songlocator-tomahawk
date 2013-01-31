@@ -5,7 +5,7 @@ NAME=`basename "$NAME" .js`
 NAME=`basename "$NAME" -resolver`
 
 cat <<EOF
-var tomahawkShim = require('./tomahawkshim');
+var tomahawkShim = require('./songlocator-tomahawk-shim');
 var Tomahawk = tomahawkShim.Tomahawk;
 var TomahawkResolver = tomahawkShim.TomahawkResolver;
 var window = tomahawkShim.window;
